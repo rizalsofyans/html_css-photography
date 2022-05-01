@@ -1,0 +1,79 @@
+:root,
+html,
+body {
+	font-family: 'Anybody', cursive;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #004d9d;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section {
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+section.image_1 {
+	background-image: url('/assets/images/sally_1.jpg');
+}
+
+section.image_2 {
+	background-image: url('/assets/images/sally_2.jpg');
+}
+
+section.image_3 {
+	background-image: url('/assets/images/sally_3.jpg');
+}
+
+section.image_4 {
+	background-image: url('/assets/images/sally_4.jpg');
+}
+
+section.image_5 {
+	background-image: url('/assets/images/sally_5.jpg');
+}
+
+section.image_6 {
+	background-image: url('/assets/images/sally_6.jpg');
+}
+
+section.image_7 {
+	background-image: url('/assets/images/sally_7.jpg');
+}
+section.image_8 {
+	background-image: url('/assets/images/sally_8.jpg');
+}
+
+header {
+	/* Using fixed position allow to precisely position an element in relation to the browser viewport */
+	position: fixed;
+	top: 1.75rem;
+	left: 1.75rem;
+}
+
+footer {
+	position: fixed;
+	bottom: 1.75rem;
+	left: 1.75rem;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 0.35rem;
+}
+
+footer a {
+	margin-right: 0.35rem;
+}
+
+footer a:hover {
+	color: #ddd;
+}
